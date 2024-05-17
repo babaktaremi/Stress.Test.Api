@@ -1,0 +1,6 @@
+@StressTest.Api_HostAddress = http://localhost:5166
+
+GET {{StressTest.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
